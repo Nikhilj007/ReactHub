@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+body {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1000px;
+  padding: 0 15px;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+
+.blogs-page {
+}
+
+.page-title {
+}
+
+.blog-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+
+.blogs {
+  border: 1px solid gainsboro;
+  border-radius: 4px;
+}
+
+.blogs img {
+  width: 100%;
+}
+
+.blogs h3 {
+  padding: 5px 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+}
